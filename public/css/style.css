@@ -7,39 +7,16 @@
 
 
 
- @media only screen and (max-width: 399px) {
-
-    #dec-hero-title {
-        font-size: 3rem;
-    }
-
-    #dec-post-hero-title {
-        font-size: 2rem;
-    }
-
- }
 
 
- @media only screen and (min-width: 400px) {
 
-    #dec-hero-title {
-        font-size: 4rem;
-        line-height: 1.25em;
-    }
-    
-    #dec-post-hero-title {
-        font-size: 3rem;
-        line-height: 1.25em;
-    }
- }
+/* Mobile and All */
 
 
 
 .hr {
-    display: block;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 2px;
+    border: 1px solid black;
+    width: 100%;    
     margin: 1rem 0;   
     
 }
@@ -213,8 +190,38 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
+
+.dec-ministries-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dec-ministries-page-card-wrapper{
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 1rem;    
+    
+        
+}
+
+.dec-ministries-page-card h2{
+    font-size: 2rem;
+}
+
+.dec-ministries-page-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5rem 0.5rem 1.5rem;
+    border-radius: 1rem;    
+}
 
 
 .dec-dark-overlay {
@@ -229,6 +236,12 @@
     height: 100%;
 }
 
+.dec-mid-overlay-ministries{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
 
 /* ================================= */
 
@@ -238,6 +251,97 @@
 .dec-bg-gray {
     background-color: #EEEEEE;
 }
+
+
+/* ================================= */
+
+
+.dec-mission-card{
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 90%;
+}
+
+.dec-mission-card h3{
+   color:gold
+}
+
+.dec-mission-card p{
+    color: white;
+ }
+ 
+
+.dec-category-list-item{
+    color: black;
+    font-weight: 500;
+}
+
+.dec-category-list-item:hover{
+    color: #3273dc;
+}
+
+
+
+
+.dec-founders-image{
+    margin: 0 auto;
+    width: 98%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1rem;
+}
+
+
+.dec-team-image {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1rem;
+}
+
+.give-page-image{
+    height:100%;
+    width: auto;
+    object-fit: cover;
+    
+}
+
+
+@media only screen and (max-width: 399px) {
+
+    #dec-hero-title {
+        font-size: 3rem;
+    }
+
+    #dec-post-hero-title {
+        font-size: 2rem;
+    }
+
+    
+
+ }
+
+
+
+
+
+
+ @media only screen and (min-width: 400px) {
+
+    #dec-hero-title {
+        font-size: 4rem;
+        line-height: 1.25em;
+    }
+    
+    #dec-post-hero-title {
+        font-size: 3rem;
+        line-height: 1.25em;
+    }
+ }
 
 
 
@@ -388,5 +492,24 @@
     object-fit: cover;
 }
 
+.dec-ministries-page-card-wrapper{
+    height: 15rem;    
+        
+}
+
 
 }
+
+
+
+
+@media only screen and (min-width: 1216px) {
+
+    .dec-ministries-page-card-wrapper{
+        height: 18rem;    
+            
+    }
+    
+
+}
+
