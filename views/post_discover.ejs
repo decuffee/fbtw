@@ -1,11 +1,11 @@
-<%- include('partials/header'); -%>
 
-    
+    <%- include('partials/header'); -%>
+
 
         <!-- ================== -->
         <!-- Hero -->
         <!-- ================== -->
-        <section class="hero is-black is-medium pt-5 dec-hero-bg-img">
+        <section class="hero is-black is-medium dec-hero-bg-img" style="background-image:url('/images/test.jpg');">
             <div class="dec-hero-overlay">
             <div class="hero-body ">
                 <p class="is-size-5-mobile is-size-4-tablet has-text-centered font2 is-underlined pb-2">
@@ -14,7 +14,9 @@
 
                 <h1 class="title is-spaced has-text-centered  has-text-weight-bold font1 pt-2" id="dec-post-hero-title">This Is The Title of The Article For This Thing
                 </h1>
-                <p class="is-size-5-mobile is-size-4-tablet has-text-centered font2">Date</p>
+                <p class="is-size-5-mobile is-size-4-tablet has-text-centered font2 mb-2">
+                    <span>Category</span> | <span>Date</span>
+                </p>
                 <p class="is-size-5-mobile is-size-4-tablet has-text-centered font2">Author</p>
     
             </div>
@@ -43,47 +45,123 @@
     <%- include('partials/discover_categories_list'); -%>
 
 
-
     <!-- ================== -->
     <!-- Discover Post -->
     <!-- ================== -->
+    <section class="px-5 pt-3">
+        <div class="container is-max-widescreen">
 
 
-        <div class="columns">
-        
+            <div class="columns is-multiline">
 
-            <aside class="column is-one-quarter-desktop">
-                aside
-            </aside>
-        
+                <!-- Aside -->
 
-
-            <section class="column is-three-quarters-desktop">
-                <article>
-                    article
-                </article>
-                <footer>
-                    article footer
-                </footer>
-            </section>
-
-
-
-        </div>
-
-
-
-
-
-
-        <section>
-
+                <aside class="column is-full-tablet is-one-quarter-desktop">
+                    <div class="columns is-mobile is-multiline has-text-black has-text-weight-bold">
+                        <div class="column is-full-mobile  is-one-quarter-tablet is-full-desktop font1 is-size-4">
+                            Featured
+                        </div>
+                        <div class="column is-one-quarter-tablet is-full-desktop font2 is-size-5-desktop">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="dec-discover-post-feature-border"></p>
+                        </div>
+                        <div class="column is-one-quarter-tablet is-full-desktop font2 is-size-5-desktop">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="dec-discover-post-feature-border"></p>
+                        </div>
+                        <div class="column is-one-quarter-tablet is-full-desktop font2 is-size-5-desktop">
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="dec-discover-post-feature-border"></p>
+                        </div>
+                    </div>                                
+                </aside>
             
-            Read These Next
+            <!-- Article -->
+    
+                <section class="column is-full-tablet is-three-quarters-desktop">
+                    <article>
+
+                
+                        <section class="block">
+                            <img src="/images/test.jpg" class="post-featured-image-in-post" alt="Article Featured Image">                            
+                        </section>
+                       
+
+                        <section class="">
+                            <h2 class="font2 is-size-2 has-text-weight-bold mb-3  has-text-black">Lorem ipsum dolor sit amet consectetur.</h2>
+                            <p class="font2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, adipisci perferendis. Minus ratione excepturi inventore totam porro saepe eius eligendi aliquam pariatur repudiandae! Corrupti repudiandae eius quasi natus sunt totam dicta quibusdam id commodi maxime quidem quia fuga nesciunt quisquam corporis architecto porro necessitatibus veritatis voluptatibus, debitis quam tenetur! Architecto.</p>
+                        </section>
+
+                        <section class="">
+                            <h2 class="font2 is-size-2 has-text-weight-bold mb-3  has-text-black">Lorem ipsum dolor sit amet consectetur.</h2>
+                            <p class="font2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, adipisci perferendis. Minus ratione excepturi inventore totam porro saepe eius eligendi aliquam pariatur repudiandae! Corrupti repudiandae eius quasi natus sunt totam dicta quibusdam id commodi maxime quidem quia fuga nesciunt quisquam corporis architecto porro necessitatibus veritatis voluptatibus, debitis quam tenetur! Architecto.</p>
+                        </section>
+
+                        <section class="">
+                            <h2 class="font2 is-size-2 has-text-weight-bold mb-3  has-text-black">Lorem ipsum dolor sit amet consectetur.</h2>
+                            <p class="font2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, adipisci perferendis. Minus ratione excepturi inventore totam porro saepe eius eligendi aliquam pariatur repudiandae! Corrupti repudiandae eius quasi natus sunt totam dicta quibusdam id commodi maxime quidem quia fuga nesciunt quisquam corporis architecto porro necessitatibus veritatis voluptatibus, debitis quam tenetur! Architecto.</p>
+                        </section>               
+
+                    </article>
+                 
+                </section>
+    
+    
+    
+        </div>
+    
+    
+    
+    
+    
+    
+            <section class="my-6">
+    
+                    <!-- Post Ending -->
+
+                    <div class="hr"></div>
+                    <h2 class="is-size-5 has-text-black block has-background-black has-text-light has-text-weight-bold p-2">Read These Next</h2>
+
+                    
+                    <div class="columns is-multiline container is-centered">
         
+                        <div class="column is-one-third-desktop">
+                                <article>               
+                                    <p class="pb-2 is-size-6 is-uppercase has-text-link font2">Special Series</p>
+                                    <a href=""><img src="../images/test.jpg" class="dec-home-discover-article-images" alt="Freedom By The Word Article Image"></a>
+                                    <a href=""><h4 class="is-size-2-mobile is-size-3-tablet is-size-4-desktop has-text-weight-bold dec-link-black font1"> 10 Leaders Evangelicals Lost in 2022</h4></a>
+                                    <p class="py-3 font2 is-size-5">Remembering a Bible smuggler, a speechwriter, a queen, and others.</p>
+                                    <a href=""><p class="font2 is-size-6 has-text-weight-medium ">Divino Viktoro</p></a>      
+                                </article>
+                            </div>
+
+
+                            <div class="column is-one-third-desktop">
+                                <article>               
+                                    <p class="pb-2 is-size-6 is-uppercase has-text-link font2">Special Series</p>
+                                    <a href=""><img src="../images/test.jpg" class="dec-home-discover-article-images" alt="Freedom By The Word Article Image"></a>
+                                    <a href=""><h4 class="is-size-2-mobile is-size-3-tablet is-size-4-desktop has-text-weight-bold dec-link-black font1"> 10 Leaders Evangelicals Lost in 2022</h4></a>
+                                    <p class="py-3 font2 is-size-5">Remembering a Bible smuggler, a speechwriter, a queen, and others.</p>
+                                    <a href=""><p class="font2 is-size-6 has-text-weight-medium ">Divino Viktoro</p></a>      
+                                </article>
+                            </div>
+                                        
+                    </div>
+            
         
+            </section>
+    
+    
+
+
+
+
         
-        </section>
+        </div>
+    </section>
+
+    
+
 
 
     </main>
