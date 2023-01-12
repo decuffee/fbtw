@@ -344,6 +344,60 @@
 }
 
 
+.dec-discover-post-featured{
+    display: block;
+    color: black; 
+}
+
+.dec-discover-post-featured:hover {    
+    color:#334ab2;
+}
+
+
+.dece-border-radius-1{
+    border-radius: 1rem;
+}
+
+.opacity-hover:hover{
+    opacity:0.8;
+}
+
+
+
+
+
+/* Contact Page */
+
+ .dec-contact-form-section {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    
+}
+
+
+.dec-contact-form-container {
+    border-radius: 2rem;
+    padding: 2rem 2rem 3rem;    
+}
+
+
+
+.dec-contact-form-instructions {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dec-contact-form-hr {
+    margin: 1.5rem 0 2rem;
+}
+
+/*
+
+.dec-contact-form-wrapper {
+
+} */
+
 
 
 @media only screen and (max-width: 399px) {
@@ -356,7 +410,6 @@
         font-size: 2rem;
     }
 
-    
 
  }
 
